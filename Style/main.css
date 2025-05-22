@@ -1,0 +1,321 @@
+.main {
+  display: grid;
+  margin-top: 100px;
+  margin-left: 400px;
+  width: 500px;
+  gap: 10px;
+  grid-template-rows: auto auto auto;
+}
+
+@media (max-width: 1100px) {
+  .main {
+    margin-left: 100px;
+    width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .main {
+        margin-left: 0px;
+    }
+}
+
+
+p {
+    font-family: Segoe UI Historic, Arial;
+    font-size: 15px;
+    color: black;
+}
+
+.mind {
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.input-section {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.input-section img {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.mind-bar {
+    width: 85%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 10px;
+    font-family: Segoe UI Historic, Arial;
+    font-size: 15px;
+    padding-left: 10px;
+    background-color: rgb(240, 242, 245);
+}
+
+.activities {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.activities img {
+    margin-right: 5px;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.reels {
+  display: flex;
+  width: 505px;
+  height: 204px;
+  overflow: hidden;
+}
+
+.history {
+  width: 110px;
+  height: 200px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  background-color: lightblue;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+}
+
+.history img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.create-history {
+  display: flex;
+  background-color: white;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4px;
+  position: relative;
+}
+
+.add {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15px;
+  z-index: 10;
+}
+
+.add img {
+  width: 20px;
+  height: 20px;
+}
+
+.fondo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: -20px;
+}
+
+.history-other {
+  width: 110px;
+  height: 200px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  background-color: lightblue;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+}
+
+.story{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.history-other p {
+  position: absolute;
+  bottom: 5px;
+  left: 10px; 
+  margin: 0px;
+  color: white;
+  font-size: 12px;
+}
+
+.story-user {
+  position: absolute;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  width: 38px;
+  height: 38px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+.posts {
+  height: 500px;
+  background-color: white;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.userAndText {
+  width: 100%;
+  height: 80px;
+  font-family: 'Segoe UI Historic', Arial;
+  font-size: 15px;
+}
+
+.nameAndDate {
+  margin: 5px 0px;
+  font-size: 13px;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+}
+
+.icons-right {
+  display: flex;
+  margin-left: 230px;
+}
+
+.icons-right img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.picture {
+  width: 100%;
+  height: 70%;
+}
+
+.reactions {
+  width: 100%;
+  height: 15%;
+}
+
+.world-icon {
+  width: 13px;
+  height: 13px;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
+.comentario-user {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+.likesAndComments {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Segoe UI Historic', Arial;
+}
+
+
+.likes {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.interactuar {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.interactuar-icons {
+  display: flex;
+  align-items: center;
+  font-family: 'Segoe UI Historic', Arial;
+}
+
+
